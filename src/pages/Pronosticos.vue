@@ -52,6 +52,7 @@ import {onBeforeMount, reactive, ref} from "vue";
 import moment from "moment";
 import jsPDF from 'jspdf'
 import autoTable from 'jspdf-autotable'
+import { API } from "@/types";
 
 interface IPronostico{
   datos_entrada:{
@@ -65,7 +66,6 @@ interface IPronostico{
 }
 
 const globalStore = useGlobalStore()
-const API = "http://localhost:8000"
 const pronosticos = ref<IPronostico[]>([])
 const pronosticosFiltrados = ref<IPronostico[]>([])
 const filtro = reactive({

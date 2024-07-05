@@ -30,7 +30,6 @@ import { useGlobalStore } from "@/stores/global";
 import {reactive, ref} from "vue";
 
 const globalStore = useGlobalStore()
-const API = "http://localhost:8000"
 const campos = reactive({
   usuario: '',
   clave: ''

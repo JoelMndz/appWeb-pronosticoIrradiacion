@@ -48,10 +48,10 @@
 
 <script setup lang="ts">
 import { useGlobalStore } from "@/stores/global";
+import { API } from "@/types";
 import {reactive, ref} from "vue";
 
 const globalStore = useGlobalStore()
-const API = "http://localhost:8000"
 const campos = reactive({
   fecha: '',
   temperatura: 0
