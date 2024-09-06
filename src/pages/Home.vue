@@ -31,9 +31,9 @@
     <h3 
       v-if="irradiacion != null"
       style="margin-top: 10px; display: flex;align-items: center;">
-      Próximas 20 minutos 
+      Próximos 20 minutos 
         <span style="font-size: 30px;">⛅</span>
-      </h3>
+    </h3>
     <ul v-for="item in proximasHoras">
       <li>
         <span style="margin-right: 20px;">🕐{{ item.hora }}h{{ item.minuto == 0 ? '00':item.minuto }}</span>
