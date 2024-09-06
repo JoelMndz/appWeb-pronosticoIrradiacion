@@ -31,7 +31,7 @@
     <h3 
       v-if="irradiacion != null"
       style="margin-top: 10px; display: flex;align-items: center;">
-      Próximas 4 horas 
+      Próximas 20 minutos 
         <span style="font-size: 30px;">⛅</span>
       </h3>
     <ul v-for="item in proximasHoras">

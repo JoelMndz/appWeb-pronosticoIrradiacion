@@ -1,8 +1,6 @@
 import { ref } from 'vue'
 import { defineStore } from 'pinia'
 
-const API = "http://104.131.9.234:8000/"
-
 interface IState{
   pagina: 'HOME' | 'LOGIN' | 'PRONOSTICOS',
 }
